@@ -218,13 +218,13 @@
 					8EDFCA151E01A2A300EFBE16 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = STR5AGX98R;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 8EDFC9FC1E01A2A300EFBE16;
 					};
 					8EDFCA201E01A2A300EFBE16 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = STR5AGX98R;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 8EDFC9FC1E01A2A300EFBE16;
 					};
 				};
@@ -436,10 +436,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = STR5AGX98R;
 				INFOPLIST_FILE = "test-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fe73b6f-435c-4913-b51e-b649a5cb7ee3";
+				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
 				PROVISIONING_PROFILE_SPECIFIER = "test-project";
 			};
 			name = Debug;
@@ -451,10 +452,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = STR5AGX98R;
 				INFOPLIST_FILE = "test-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fe73b6f-435c-4913-b51e-b649a5cb7ee3";
+				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
 				PROVISIONING_PROFILE_SPECIFIER = "test-project";
 			};
 			name = Release;
@@ -463,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = STR5AGX98R;
 				INFOPLIST_FILE = "test-projectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -476,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = STR5AGX98R;
 				INFOPLIST_FILE = "test-projectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -493,6 +497,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-projectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
+				PROVISIONING_PROFILE_SPECIFIER = "test-project";
 				TEST_TARGET_NAME = "test-project";
 			};
 			name = Debug;
@@ -505,6 +511,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-projectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
+				PROVISIONING_PROFILE_SPECIFIER = "test-project";
 				TEST_TARGET_NAME = "test-project";
 			};
 			name = Release;
