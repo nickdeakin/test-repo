@@ -212,18 +212,18 @@
 				TargetAttributes = {
 					8EDFC9FC1E01A2A300EFBE16 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = STR5AGX98R;
+						DevelopmentTeam = 4B9GHJ9X43;
 						ProvisioningStyle = Manual;
 					};
 					8EDFCA151E01A2A300EFBE16 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = STR5AGX98R;
+						DevelopmentTeam = 4B9GHJ9X43;
 						ProvisioningStyle = Manual;
 						TestTargetID = 8EDFC9FC1E01A2A300EFBE16;
 					};
 					8EDFCA201E01A2A300EFBE16 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = STR5AGX98R;
+						DevelopmentTeam = 4B9GHJ9X43;
 						ProvisioningStyle = Manual;
 						TestTargetID = 8EDFC9FC1E01A2A300EFBE16;
 					};
@@ -360,7 +360,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nick Deakin (XWL643J26R)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -408,7 +408,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nick Deakin (XWL643J26R)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -433,15 +433,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = STR5AGX98R;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nick Deakin (XWL643J26R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nick Deakin (XWL643J26R)";
+				DEVELOPMENT_TEAM = 4B9GHJ9X43;
 				INFOPLIST_FILE = "test-project/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opentext.test-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
-				PROVISIONING_PROFILE_SPECIFIER = "test-project";
+				PROVISIONING_PROFILE = "3356220b-0c81-44be-a396-e9a0c8cdca83";
+				PROVISIONING_PROFILE_SPECIFIER = testproject;
 			};
 			name = Debug;
 		};
@@ -449,15 +450,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = STR5AGX98R;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nick Deakin (STR5AGX98R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nick Deakin (STR5AGX98R)";
+				DEVELOPMENT_TEAM = 4B9GHJ9X43;
 				INFOPLIST_FILE = "test-project/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opentext.test-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
-				PROVISIONING_PROFILE_SPECIFIER = "test-project";
+				PROVISIONING_PROFILE = "3356220b-0c81-44be-a396-e9a0c8cdca83";
+				PROVISIONING_PROFILE_SPECIFIER = testproject;
 			};
 			name = Release;
 		};
@@ -465,11 +467,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = STR5AGX98R;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nick Deakin (XWL643J26R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nick Deakin (XWL643J26R)";
+				DEVELOPMENT_TEAM = 4B9GHJ9X43;
 				INFOPLIST_FILE = "test-projectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-projectTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opentext.test-projectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-project.app/test-project";
 			};
@@ -479,11 +482,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = STR5AGX98R;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nick Deakin (STR5AGX98R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nick Deakin (STR5AGX98R)";
+				DEVELOPMENT_TEAM = 4B9GHJ9X43;
 				INFOPLIST_FILE = "test-projectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-projectTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opentext.test-projectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-project.app/test-project";
 			};
@@ -492,13 +496,14 @@
 		8EDFCA311E01A2A300EFBE16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = STR5AGX98R;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nick Deakin (XWL643J26R)";
+				DEVELOPMENT_TEAM = 4B9GHJ9X43;
 				INFOPLIST_FILE = "test-projectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-projectUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opentext.test-projectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
-				PROVISIONING_PROFILE_SPECIFIER = "test-project";
+				PROVISIONING_PROFILE = "3356220b-0c81-44be-a396-e9a0c8cdca83";
+				PROVISIONING_PROFILE_SPECIFIER = testproject;
 				TEST_TARGET_NAME = "test-project";
 			};
 			name = Debug;
@@ -506,13 +511,14 @@
 		8EDFCA321E01A2A300EFBE16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = STR5AGX98R;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nick Deakin (STR5AGX98R)";
+				DEVELOPMENT_TEAM = 4B9GHJ9X43;
 				INFOPLIST_FILE = "test-projectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickdeakin.test-projectUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opentext.test-projectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "11c31bf5-f69b-4854-bd70-64932dbbf93e";
-				PROVISIONING_PROFILE_SPECIFIER = "test-project";
+				PROVISIONING_PROFILE = "3356220b-0c81-44be-a396-e9a0c8cdca83";
+				PROVISIONING_PROFILE_SPECIFIER = testproject;
 				TEST_TARGET_NAME = "test-project";
 			};
 			name = Release;
